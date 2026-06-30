@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0313/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0313/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 桓真人升仙記
+  date: '2015-08-28 23:46:19.943649'
+  source:
+    repository: kanripo
+    path: KR5a0313
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0313_000-HFL.yaml, hash: 'sha256:c3b25f71bfdbe386ee9fbf6fe4d49dc9ad162a1c96c9c6cf442d8e361b7ea3da'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0313_000-HFL.markers.yaml, hash: 'sha256:be3d190a6d63af4041226c2cfd9d92b5bf4832f3be2a34fde5df427204a21396'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0313_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4484
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ef750f73ec3043f761a6ea85acc95a6b05488b3c7fd247bcafc2d233e0857abc

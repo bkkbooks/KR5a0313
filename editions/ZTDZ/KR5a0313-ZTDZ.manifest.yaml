@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0313/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0313/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 桓真人升仙記
+  date: '2015-08-28 23:46:19.943649'
+  source:
+    repository: kanripo
+    path: KR5a0313
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0313_000-ZTDZ.yaml, hash: 'sha256:286c8b05d24b63db0cc4ec080bcc55695f4deb03fac15707d0d6f15f1dc7c93f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0313_000-ZTDZ.markers.yaml, hash: 'sha256:3fd0d7ea78c86052e734279057da485f87632b6a9ae58e5ab918d9f97fd23fd1'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0313_SJB_000-050513b
+    span:
+    - body
+    - 0
+    - 4484
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:1040d1206f6746dc1914e00fb2af4b4eff493a6b633df5aeeea4e3f110ab1c16
